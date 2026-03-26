@@ -1,0 +1,123 @@
+/* Page Background */
+
+body {
+
+margin:0;
+
+font-family: Verdana, sans-serif;
+
+background: linear-gradient(to right, #141e30, #243b55);
+
+}
+
+/* Main Container */
+
+.container {
+
+width:80%;
+
+max-width:900px;
+
+padding:40px;
+
+margin:auto;
+
+}
+
+/* Heading */
+
+h1 {
+
+text-align:center;
+
+color:#ffffff;
+
+font-size:42px;
+
+margin-bottom:40px;
+
+letter-spacing:2px;
+
+}
+
+/* Hobby Cards */
+
+.card {
+
+background:rgba(255,255,255,0.1);
+
+padding:25px;
+
+margin-bottom:30px;
+
+border-radius:15px;
+
+backdrop-filter:blur(5px);
+
+color:white;
+
+transition:0.4s;
+
+}
+
+/* Hover Effect */
+
+.card:hover {
+
+background:rgba(255,255,255,0.2);
+
+transform:translateY(-5px);
+
+}
+
+/* Sub Headings */
+
+.card h2 {
+
+margin-top:0;
+
+color:#00ffd5;
+
+}
+
+/* Paragraph */
+
+.card p {
+
+line-height:1.6;
+
+}
+
+/* Image */
+
+.card img {
+
+width:250px;
+
+margin-top:15px;
+
+border-radius:12px;
+
+opacity:0.85;
+
+transition:0.3s;
+
+}
+
+.card img:hover {
+
+opacity:1;
+
+transform:scale(1.05);
+
+}
+
+/* Audio */
+
+audio {
+
+margin-top:15px;
+
+width:100%;
+
+}
